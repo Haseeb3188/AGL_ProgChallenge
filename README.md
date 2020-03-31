@@ -7,7 +7,7 @@ The project is developed to consume the json from the url (http://agl-developer-
 
 Clone the project 
 ```bash
-git clone 'https://github.com/Haseeb3188/AGL_ProgChallenge
+git clone 'https://github.com/Haseeb3188/AGL_ProgChallenge'
 ```'
            
 or
