@@ -1,0 +1,56 @@
+body {
+    font-family: "Titillium Web",sans-serif;
+    color: #696969;
+    background-color: #FFFFF0;
+    
+}
+h2{
+    color: #0000FF;
+    font-weight: 100;
+}
+h1{
+  margin:1.5em;
+  font-size: 35px;
+}
+div#pets {
+  margin: 3em;
+  width: 30em;
+}
+ul {
+    counter-reset: li;
+    list-style: none;
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+}
+li {
+    display: list-item;                      
+    text-align: -webkit-match-parent;
+    position: relative;    
+    padding: .4em .4em .4em 2em;
+    margin: .5em 0;
+    margin-left: 1em;
+    background: #0000FF;
+    color: #FFF;
+    text-decoration: none;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .3em; 
+    
+}
+
+li:before {     
+    content: "•";
+    display: inline-block; width: 1em;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -0.5em;
+    text-align: center;
+    font-weight: bold;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+    color: #0000FF;
+}
+
